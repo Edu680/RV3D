@@ -1,0 +1,198 @@
+
+/***************************************************************
+	
+		Hoja de estilos; Composición.
+		Autor: Eduardo Pérez Cañas
+	
+***************************************************************/
+
+/* =Composición
+--------------------------------------------------------------*/
+
+body {
+	text-align:center;
+}
+
+div#contenedor {
+	width:975px;  /*anchura en pixeles (975px era previamente)*/
+	/*width: 80%;*/  
+	height: auto;
+	text-align:left;
+	margin:0 auto;     	
+}
+
+div#cabecera {
+	height:80px;
+	/*height: 10%;*/
+	background: #9CF;
+	color: #fff;
+	margin: 10px 0 10px 0;
+	padding-top: 10px;
+	/*margin: 0.8% 0 0.8% 0;
+	padding: 0.5% 0 0.5% 0;*/
+	text-align: center;
+}
+
+div#contenido {
+	/*margin-left:350px; */
+	/*width:525px;*/
+	/*width: 100%;*/
+	width:auto;
+	height: auto;
+	margin: 10px 0 10px 0;
+	/*margin: 1% 0 1% 0;*/
+	text-align:center;
+	/*min-height:700px;*/
+	
+}
+
+div#grafico {
+	float: left;
+	margin-right: 5px;
+	padding: 20px 0 0 0; 
+	width: 700px; 		/*Altura y anchura en pixeles*/
+	height: 700px; 
+	/*width: 70%;
+	height: 100%;
+	margin-right: 0.7%;
+	padding: 10% 0 0 0; */
+/*	border-right: 1px solid #9CF; */
+	border: 1px solid #9CF;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+#inset  {
+    width: 100px; 
+    height: 100px; 
+   /*width: 15%;
+   height: 15%; */
+    background-color: #fff; /* or transparent; */
+    border: 1px solid black; /* or none; */
+    margin: 10px;
+    padding: 0px;
+    position: absolute;
+    left: 0px; 
+  /* left: 0%; */
+   	top: 600px;
+   /*top: 86%; */
+    z-index: 1;
+}
+
+#stats {
+
+    /*width: 100px;
+    height: 100px;*/
+	width: auto;
+	height: auto;
+    background-color: #fff; /* or transparent; */
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+	right: 0px;
+   	bottom: 0px; 
+	/*right: 0%;
+	bottom: 0%; */
+    z-index: 1;
+
+}
+
+div#interfaz {
+	margin-left: 5px;
+	float: left;
+	width: 260px;
+	/*width: 25%; */
+	height: auto;
+	border: 1px solid black;
+	background-color: #000;
+	
+}
+
+div#mserror {
+	text-align:center;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+div#pregunta , div#test {
+	width: 913px; 
+	/*width: 75%; */
+	height: auto;
+	margin-bottom: 10px;
+	padding: 30px;
+	border: 1px solid #9CF;
+	font-size: 14px;
+	/*font-weight: bold; */
+	color: black;
+}
+
+div#respuestas {
+	width: 913px;
+/*	width: 75%; */
+	height: auto;
+	margin-top: 10px;
+	padding: 30px;
+	border: 1px solid #9CF;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	text-align:center;
+}
+
+div#correcto, div#incorrecto {
+	width: auto;
+	height: auto;
+	/*margin-top: 5px;*/
+	margin: 10px;
+	/*padding: 10px 0 10px 0;*/
+	font-size: 25px;
+	text-align:center;
+}
+
+div#pie {
+	height: 20px;
+	/*height:auto; */
+	text-align:center;	
+	background: #9CF;
+	color: #000;
+	font-weight: bold;
+}
+#login{
+	margin:auto;
+	text-align:center;
+}
+
+div#crearVector {
+	margin:auto;
+	text-align:center;
+	z-index: 100;
+}
+
+div#graficaNotas {
+	width: auto;
+	text-align:center;
+
+}
+
+div#barramenu {
+	text-align:center;
+}
+
+div#formularioregistro {
+	text-align:center;
+	margin: 20px 5px 10px 5px;
+	line-height: 3;
+}
+
+.botones {
+	margin-top: 20px;
+}
+
+.disponible {
+	border: 5px solid green;
+}
+
+.noDisponible {
+	border: 5px solid red;
+}

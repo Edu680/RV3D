@@ -1,0 +1,98 @@
+
+/***************************************************************
+	
+		Hoja de estilos; Formateo de estilos del navegador.
+		Autor: Eduardo Pérez Cañas
+	
+***************************************************************/
+
+/* =Import
+--------------------------------------------------------------*/
+
+/* Eliminamos los estilos por defecto del navegador */
+@import url(reset.css);
+
+/* Importamos los estilos de composición */
+@import url(composicion2.css);
+
+/* Estilos globales
+--------------------------------------------------------------*/
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:16px;
+	background:#fff;
+	color:#6b6b6b;
+	cursor:default;
+}
+
+/* =hx */
+h1, h2, h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	text-shadow:#d3d4d5 3px 3px 2px;
+}
+
+/* =h1 */
+h1 {
+	font-size:28px;
+	line-height:44px;
+	color:#fff;
+	text-shadow:#000 3px 3px 2px;
+}
+
+/* =h2 */
+h2 {
+	font-size:18px;
+	line-height:29px;
+	/*color:#03b0f4;*/
+	color: #000;
+}
+
+/* =h3 */
+h3 {
+	font-size:24px;
+	line-height:44px;
+	color:#2E64FE;
+	/*text-shadow:#000 3px 3px 2px;*/
+}
+
+/* =p */
+p {
+	margin:4px 0 4px 0;
+}
+
+/* =strong */
+strong {
+	font-weight:bold;
+}
+
+italic {
+	font-style:italic;
+}
+
+/* =a */
+a {
+	text-decoration:underline;
+	color:#03b0f4;
+	cursor:pointer;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+/* =img */
+img {
+	background:#afb2b4;
+	padding:1px;
+	border:10px solid #f3f4f6;
+}
+
+img:hover {
+	background:#f3f4f6;
+	padding:1px;
+	border:10px solid #afb2b4;
+}
+
